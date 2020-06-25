@@ -16,28 +16,13 @@ const Footer = () => {
 
     const renderSocials = () => {
         const socials = [
-            { name: 'Github', icon: 'ti-github', url: 'https://www.github.com/cross19xx' },
-            {
-                name: 'Facebook',
-                icon: 'ti-facebook',
-                url: 'https://www.facebook.com/profile.php?id=100009436144652'
-            },
-            {
-                name: 'Stack Overflow',
-                icon: 'ti-stack-overflow',
-                url: 'https://stackoverflow.com/users/3651221/cr05s19xx'
-            },
-            {
-                name: 'Instagram',
-                icon: 'ti-instagram',
-                url: 'https://www.instagram.com/kenneth_kwakyegyamfi/'
-            },
+            {name: 'Github', icon: 'ti-github', url: 'https://www.github.com/Timo123950'},
             {
                 name: 'LinkedIn',
                 icon: 'ti-linkedin',
-                url: 'https://www.linkedin.com/in/kenneth-kwakye-gyamfi/'
+                url: 'https://www.linkedin.com/in/timo-van-balen/'
             },
-            { name: 'Twitter', icon: 'ti-twitter', url: 'https://twitter.com/cross19xx' }
+            {name: 'Twitter', icon: 'ti-twitter', url: 'https://twitter.com/TimoBalen'}
         ];
 
         return socials.map(social => (

@@ -15,21 +15,21 @@ const Works = () => {
                 name: 'Pokemon Pokedex Losing and Winning',
                 description: 'Pokedex',
                 links: [
-                    { url: 'https://nostalgic-newton-5577ea.netlify.app', icon: 'ti-world' },
+                    {url: 'https://nostalgic-newton-5577ea.netlify.app', icon: 'ti-world'},
                 ]
             },
             {
                 img: Dice,
                 name: 'A Game so you can get random dices',
                 description: 'A Game so you can get random dices',
-                links: [{ url: 'https://gifted-carson-87cc34.netlify.app/', icon: 'ti-world' }]
+                links: [{url: 'https://gifted-carson-87cc34.netlify.app/', icon: 'ti-world'}]
             },
             {
                 img: Floaty,
                 name: 'Floaty App for Windows and Linux',
                 description:
                     'Floaty opens any website or media in a small floating window that remains on top of all other applications. Floaty windows stays up all the time. No need to keep struggling with alt + tab, use Floaty for easy multitasking.',
-                links: [{ url: 'https://www.github.com/Timo123950/floaty', icon: 'ti-desktop' }]
+                links: [{url: 'https://www.github.com/Timo123950/floaty', icon: 'ti-desktop'}]
             }
         ];
 
