@@ -3,7 +3,7 @@
 ![App Version](https://img.shields.io/badge/version-1.0.0-blue.svg)
 ![Gatsby Version](https://img.shields.io/badge/gatsby-2.19.18-purple.svg)
 ![PRs allowed](https://img.shields.io/badge/pull_requests-allowed-teal.svg)
-
+[![Netlify Status](https://api.netlify.com/api/v1/badges/699cb317-e1c3-481c-917e-06f80f4ecc7a/deploy-status)](https://app.netlify.com/sites/pedantic-shirley-585d0a/deploys)
 
 Website for Timo van Balen, built with [GatsbyJS](https://www.gatsbyjs.org) and React and hosted with ♥ at [Netlify](https://www.netlify.com/).
 
