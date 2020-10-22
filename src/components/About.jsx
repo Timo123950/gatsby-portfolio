@@ -6,7 +6,7 @@ import WebApp from '../img/development.svg';
 
 const About = () => {
     const description =
-        "I'm a full stack web developer 💪🏽 with a 3-year work experience developing web applications; and building desktop applications. I currently work at a multi purpose dashboard. I am well-adept to developing for formal and non-formal settings.";
+        "I'm a full stack web developer with a 3-year work experience developing web applications; and building native applications. I currently work on a native app that is called Way-It. I am well-adept to developing for formal and non-formal settings.";
 
     const renderBreakdowns = () => {
         const breakdowns = [
@@ -16,16 +16,19 @@ const About = () => {
                 description:
                     'I love to work actively on a the app portion of a software development lifecycle from designing to frontend development.',
                 subTitle: 'Things I love designing',
-                subDesc: 'Websites',
+                subDesc: 'Websites, Mobile Apps',
                 listTitle: 'Design Tools + Languages',
                 list: [
                     'ReactJS',
+                    'React Native',
                     'Vanilla JS',
-                    'Adobe Photoshop',
-                    'Adobe XD',
-                    'Figma',
+                    'HTML5',
+                    'CSS3',
+                    'JQuery',
                     'Gatsbyjs',
-                    'MeteorJS'
+                    'MeteorJS',
+                    'Adobe XD',
+                    'Figma'
                 ]
             },
             {
@@ -34,29 +37,30 @@ const About = () => {
                 description:
                     'I also love to get down to the dirty stuff and build APIs; websocket servers; microservice architectures; and generally full-fledged backend apps.',
                 subTitle: 'Things I love building',
-                subDesc: 'Web applications, APIs, DevOps',
+                subDesc: 'Web applications, APIs',
                 listTitle: 'Dev tools + languages',
                 list: [
                     'NodeJS',
-                    'PHP',
-                    'Python',
-                    'Google Cloud Platform',
-                    'Microsoft Azure',
-                    'Digital ocean',
-                    'Amazon Web Services',
+                    'Javascript',
+                    'JSON',
+                    'Express',
+                    'NestJS',
+                    'Typescript',
                     'Database management',
-                    'Heroku'
+                    'MySQL',
+                    'MongoDB',
+                    'Google Cloud Platform',
+                    'Microsoft Azure'
                 ]
             },
             {
                 img: Desktop,
-                title: 'Desktop app development',
-                description:
-                    'I have experience developing not just Native applications but also (depending on the job) develop hybrid applications, fit for both Linux, Windows and Mac.',
+                title: 'Other',
+                description: 'I have experience developing',
                 subTitle: 'Types I love developing',
-                subDesc: 'Windows, Linux, Hybrid apps',
+                subDesc: 'Webapps, Websites, Native Apps',
                 listTitle: 'Development tools',
-                list: ['Electron', 'Electron with React', 'Meteor Desktop']
+                list: ['Git', 'Github', 'Wordpress', 'Docker', 'Vscode']
             }
         ];
 
@@ -85,13 +89,13 @@ const About = () => {
     return (
         <div className="about">
             <div className="about__inner">
-                <h2 className="about__title">Hello, I&apos;m Timo. Nice to meet you 👋🏼</h2>
+                <h2 className="about__title">Hello, I&apos;m Timo. Nice to meet you.</h2>
 
                 <p className="about__text">{description}</p>
 
                 <a href="/CV Timo van Balen.pdf" download="" className="about__cv">
                     Download my CV &nbsp;
-                    <i className="ti-file" />
+                    <i className="ti-file"/>
                 </a>
             </div>
 

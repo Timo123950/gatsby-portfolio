@@ -6,6 +6,7 @@ const NETLIFY_FORM_NAME = 'contact';
 export default function ContactForm() {
     return (
         <form
+            netlify
             method="post"
             data-netlify="true"
             name={NETLIFY_FORM_NAME}

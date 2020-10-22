@@ -13,10 +13,10 @@ const Hero = () => (
         </nav>
 
         <div className="hero__body">
-            <h1 className="hero__title">Web full-stack developer, designer</h1>
+            <h1 className="hero__title">Web full-stack, Native Developer</h1>
 
             <p className="hero__subtitle">
-                I design &amp; build web and desktop apps with UI as the primary focus
+                I build web and native apps with UI as the primary focus
             </p>
 
             <img src={Memoji} alt="Timo van Balen memoji" className="hero__memoji" />

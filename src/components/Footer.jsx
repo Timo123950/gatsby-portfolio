@@ -14,13 +14,15 @@ const Footer = () => {
         return quotes[Math.floor(Math.random() * quotes.length)];
     };
 
+    console.log(renderQuote());
+
     const renderSocials = () => {
         const socials = [
             {name: 'Github', icon: 'ti-github', url: 'https://www.github.com/Timo123950'},
             {
                 name: 'LinkedIn',
                 icon: 'ti-linkedin',
-                url: 'https://www.linkedin.com/in/timo-van-balen/'
+                url: 'https://www.linkedin.com/in/timo-van-balen-01b6231b1/'
             },
             {name: 'Twitter', icon: 'ti-twitter', url: 'https://twitter.com/TimoBalen'}
         ];
@@ -42,7 +44,7 @@ const Footer = () => {
 
     return (
         <footer className="footer">
-            <img src={Logo} alt="Kenneth Kwakye-Gyamfi Logo" className="footer__logo" />
+            <img src={Logo} alt="Timo van Balen Logo" className="footer__logo" />
 
             <p className="footer__quote">{renderQuote()}</p>
 
