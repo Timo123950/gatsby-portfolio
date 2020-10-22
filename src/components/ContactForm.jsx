@@ -11,7 +11,8 @@ export default function ContactForm() {
             data-netlify="true"
             name={NETLIFY_FORM_NAME}
             className="contact-form grid"
-            data-netlify-honeypot="bot-field">
+            data-netlify-honeypot="bot-field"
+            action="/">
             <input type="hidden" name="form-name" value={NETLIFY_FORM_NAME} />
 
             <div className="contact-form__container">
