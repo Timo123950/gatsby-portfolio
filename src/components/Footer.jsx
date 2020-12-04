@@ -1,6 +1,6 @@
 import React from 'react';
 
-import Logo from '../img/logo-logo.svg';
+import Logo from '../img/tb..png';
 
 const Footer = () => {
     const renderQuote = () => {

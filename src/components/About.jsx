@@ -56,7 +56,7 @@ const About = () => {
             {
                 img: Desktop,
                 title: 'Other',
-                description: 'I have experience developing',
+                description: 'I have experience using different tools',
                 subTitle: 'Types I love developing',
                 subDesc: 'Webapps, Websites, Native Apps',
                 listTitle: 'Development tools',
@@ -93,7 +93,7 @@ const About = () => {
 
                 <p className="about__text">{description}</p>
 
-                <a href="/CV Timo van Balen.pdf" download="" className="about__cv">
+                <a href="/CV_Timo_van_Balen.pdf" download="" className="about__cv">
                     Download my CV &nbsp;
                     <i className="ti-file"/>
                 </a>

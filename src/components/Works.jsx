@@ -1,7 +1,7 @@
 import React from 'react';
 
-import Dice from '../img/dice.png';
-import Pokedex from '../img/pokedex.png';
+import WayIt from '../img/Map-Homescreen.png';
+import Calculator from '../img/Calculator.png';
 // eslint-disable-next-line import/no-unresolved
 import Floaty from '../img/floaty.png';
 
@@ -11,18 +11,16 @@ const Works = () => {
     const renderWorks = () => {
         const works = [
             {
-                img: Pokedex,
-                name: 'Pokemon Pokedex Losing and Winning',
-                description: 'Pokedex',
-                links: [
-                    {url: 'https://nostalgic-newton-5577ea.netlify.app', icon: 'ti-world'},
-                ]
+                img: Calculator,
+                name: 'React Native - Calculator - IOS design',
+                description: 'A React Native Calculator build by the design of the ios calculator',
+                links: [{ url: 'https://github.com/Timo123950/Calculator', icon: 'ti-mobile' }]
             },
             {
-                img: Dice,
-                name: 'A Game so you can get random dices',
-                description: 'A Game so you can get random dices',
-                links: [{url: 'https://gifted-carson-87cc34.netlify.app/', icon: 'ti-world'}]
+                img: WayIt,
+                name: 'An Walking app for Android and IOS',
+                description: 'A Waling app where you can walk routes.',
+                links: [{ url: 'https://github.com/WayItDev/Way-It', icon: 'ti-mobile' }]
             },
             {
                 img: Floaty,
@@ -42,7 +40,7 @@ const Works = () => {
             <p className="works__subtext">
                 Actions speak louder than words. Here are a few of the stuff I&apos;ve built. Others
                 were confidential. For more details{' '}
-                <a href="mailto:kenneth.cross95@gmail.com" className="works__subtext-email">
+                <a href="mailto:tvanbalent@gmail.com" className="works__subtext-email">
                     Email me
                 </a>
             </p>

@@ -1,7 +1,7 @@
 import React from 'react';
 
 import HeroFooter from '../img/hero.svg';
-import Logo from '../img/logo-logo.svg';
+import Logo from '../img/tb..png';
 import Memoji from '../img/memoji-me.svg';
 
 const Hero = () => (
